@@ -1,0 +1,111 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c4f6fd;
+
+
+}
+
+
+section.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height: 400px;
+    background-color: #af86ad;
+    padding: 10px;
+    border-radius: 20px;
+  
+
+}
+
+div.interact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:30px;
+    width:400px;
+    background-color: white;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+h3{
+
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+h3:hover{
+
+background-color: gray;
+color: white;
+border-radius: 10px;
+
+.reactions{
+    display: flex;
+}
+
+}
+
+
+
+
+.reactions{
+
+    background-color: rgb(106, 97, 136);
+    border-radius: 10px;
+    /* padding: 10px; */
+    display:none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+    margin-top: 10px;
+
+
+
+}
+
+
+div.emoji{
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height:30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-property: transform;
+    transition-duration: 300ms;
+
+    border: 1px solid black;
+
+    border-radius: 30px;
+    align-items: center;
+    background-color: white;
+
+}
+
+div.emoji:hover{
+
+    transform: scale(2);
+    cursor: pointer;
+
+}
+
+
+
+
+

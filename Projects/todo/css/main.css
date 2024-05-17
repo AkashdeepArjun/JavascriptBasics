@@ -1,0 +1,60 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: linear-gradient(#75afaf ,#477777);
+}
+
+.container{
+    width: 100%;
+    background-color: #9c3737;
+    color: white;
+
+
+}
+
+
+input{
+width: 100%;
+border-radius: 8px;
+background-color: white;
+color: black;
+
+}
+
+
+.delete{
+color: red;
+cursor: pointer;
+
+}
+
+
+.todos{
+    margin-top: 2em;
+
+}
+
+.todo{
+
+    border-left: 4px solid pink;
+    padding: 5px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+
+}

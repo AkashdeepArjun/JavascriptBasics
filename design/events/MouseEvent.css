@@ -1,0 +1,165 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #db1bbb;
+    padding: 10px;
+    }
+
+
+div.mouse {
+
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+flex-basis: 1;
+padding: 10px;
+width: 500px;
+height: 400px;
+
+background-color: #424977;
+border-radius:10px;
+color: white;
+text-align: center;
+justify-content: center;
+justify-content: space-between;
+
+}
+
+
+div.mo {
+
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    flex-basis: 1;
+    padding: 10px;
+    width: 700px;
+    height: 600px;
+    
+    background-color: #424977;
+    border-radius:10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+    }
+
+
+
+
+
+div .item{
+
+    width:100px;
+    height: 100px;
+    border-radius: 20px;
+
+
+
+}
+
+
+.red{
+    background-color:#8d1414;
+}
+
+
+.green{
+    background-color: rgb(31, 100, 22);
+}
+
+.pink{
+    background-color: #5a134e;
+}
+
+
+.yellow{
+    background-color: rgb(229, 245, 52);
+}
+
+
+.choclate{
+    background-color:rgb(56, 38, 12)
+}
+
+.aqua{
+    background-color: aqua;
+}
+
+.default{
+    background-color: rgb(255, 255, 255);
+}
+
+
+div .rc{
+
+
+    width:150px;
+    height: 150px;
+    border-radius: 40px;
+
+
+
+}
+
+div .dc{
+
+    width:100px;
+    height: 100px;
+    border-radius: 20px;
+    border:10px solid green;
+
+
+}
+
+div .md{
+
+    width:50x;
+    height:50px;
+    border-radius: 10px;
+
+
+
+}
+
+
+div .me{
+
+
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+div .mo{
+
+    
+    width: 20px;
+    height: 20px;
+    margin-left:30px;
+    margin-right: 30px;
+
+
+}
+
+
+div.mu{
+
+
+    width:600px;
+    height: 120px;
+    /* margin-left:30px; */
+    /* margin-right: 30px; */
+
+
+
+
+
+}

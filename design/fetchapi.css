@@ -1,0 +1,61 @@
+
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6c7b89;
+
+}
+
+.input{
+
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: indianred;
+
+}
+
+.output{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(53, 99%, 51%);
+
+
+}
+
+html{
+    font-size: 20px;
+}
+
+.todo{
+    width:8rem;
+    height:8rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: cursive;
+    color: white;
+    background-color: #343a72;
+    margin:1rem;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+font-size: 0.25rem;
+}
+
+button{
+    padding: 10px;
+    
+}

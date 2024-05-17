@@ -1,0 +1,16 @@
+
+.styles{
+
+text-decoration: line-through;
+font-weight: bold;
+color:rgba(#d63030, 0.56);
+font-family: sans-serif;}
+
+.potatoStyles{
+
+/* text-decoration: overline; */
+font-weight: bold;
+color:#479920 ;
+font-family: cursive;
+
+}

@@ -1,0 +1,66 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #423752;
+
+
+}
+
+form{
+padding: 20px;
+background-color: #5495a1;
+margin: 10px;
+border-radius: 15px;
+
+}
+
+input{
+
+background-color: white;
+border-radius: 10PX;
+color: black;
+padding: 10px;
+}
+
+
+button.good{
+    padding: 10px;
+    background-color: #6a9841;
+    border-radius: 10px;
+    font-family: cursive;
+    color: white;
+}
+
+h1{
+    padding: 10px;
+    background-color: #417198;
+    color:white;
+}
+
+button.bad{
+
+    padding: 10px;
+    background-color: #8a381e;
+    border-radius: 10px;
+    font-family: cursive;
+    color: white;
+
+
+
+}
+
+p{
+
+    padding: 10px;
+    text-align:left;
+    background: #3a5979;
+    color: white;
+
+    width: 200px;
+    height: 100px;
+
+    border-radius: 10px;
+
+
+}

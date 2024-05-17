@@ -1,0 +1,44 @@
+
+ul{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(#346b26, 0.6);
+
+}
+
+
+li{
+
+    max-width: 100px;
+    max-height: 100px;
+    background-color: #917beb;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.special{
+
+    max-width: 200px;
+    max-height: 200px;
+    background-color: #3a7437;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+h1{
+border: 1px solid rgba(#bb6bf2, 0.6);
+
+padding: 30px;
+
+background-color: #bb6bf2;
+
+font-family: fantasy;
+border-radius: 20px;
+}

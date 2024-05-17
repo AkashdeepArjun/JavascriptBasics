@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Workbench&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+width:100vw;
+z-index:99;
+margin-top: 20px;
+}
+
+
+
+.main-img{
+    width:40%;
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+
+
+nav ul{
+
+    display: flex;
+
+
+}
+
+ul>li{
+
+    list-style: none;
+    margin-left:40px;
+    font-size: 1 rem;
+    font-family: opensans;
+   
+
+}
+
+li>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav>div>h1{
+    font-family: workbench;
+}
+
+
+.sidebar{
+    background: linear-gradient(#c3e7e7,#517171,rgb(213, 117, 117));
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.content-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+}
+
+.main-title{
+
+    font-family: 'Bebas Neue';
+    transform: rotate(-90deg);
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+
+
+.main-info{
+
+    transform: rotate(-90deg);
+    font-family: 'Kablammo';
+    text-align: center;
+    width:200px;
+    margin-bottom:5rem;
+    margin-left: 7rem;
+}

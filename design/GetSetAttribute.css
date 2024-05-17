@@ -1,0 +1,36 @@
+body{
+display: flex;
+flex-direction: row;
+padding: 10px;
+align-items:baseline;
+
+}
+
+div{
+
+
+
+}
+
+
+input{
+
+    border: 1px solid #3486af;
+    max-height: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    /* margin: 5px; */
+
+}
+
+input:hover{
+
+    border: 2px solid #54af42;
+
+
+}
+input:focus{
+
+    border: 0px;
+}

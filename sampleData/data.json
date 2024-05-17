@@ -1,0 +1,12 @@
+{
+
+    "name":"akashdeep",
+    "role":"web developer",
+    "email":"akashdeep@gmail.com",
+    "proUser":true,
+    "courses":["c language","c++ language","html","css","javascript"],
+    "address":{
+        "city":"jalandhar",
+        "postalCode":144001
+    }
+}
